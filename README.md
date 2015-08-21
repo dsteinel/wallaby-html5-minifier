@@ -1,6 +1,14 @@
 # wallaby-html5-minifier
 This is a grunt task which is specific designed for converting flash to html5 banner.
 
+easy to use. Get a API key from [tinypng](https://tinypng.com/developers) and replace it in the Gruntfile.js.
+- Rename your export file to: `` index.html? ``
+- put all .js files in a folder named `` /js ``
+- change the path of the .js files in your html
+- all other files will be automatically in `` /index_assets `` (i know it sounds bad, but like that you dont have to change all folder paths in yout .html file)
+- now just run `` npm install ``
+- after finishing npm install you have to run `` grunt `` to minify all files and put them ready to go in `` /dist ``
+
 
 - - - 
 
